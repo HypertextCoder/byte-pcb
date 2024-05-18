@@ -14,6 +14,6 @@ The deadline for submission of these programs is **15 July 2024**.
 
 ## **Contact**
 For any queries or assistance, contact:
-- **Name:** Your Name
-- **Email:** Your Email Address
-- **School:** Your School Name
+- **Name:** Abhinav Gupta
+- **Email:** coderhypertext@outlook.com 
+- **School:** NOT TO BE DISCLOSED
