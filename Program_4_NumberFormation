@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class Program_4_NumberFormation {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        
+        System.out.print("Enter a number: ");
+        int number = in.nextInt();
+        int temp = number;
+        int numDigits = 0;
+        
+        // Count the number of digits
+        while (temp != 0) {
+            temp /= 10;
+            numDigits++;
+        }
+        
+        // Form the new number
+        int newNumber = (numDigits * 10) + (number % 10);
+        
+        System.out.println("Number of digits: " + numDigits);
+        System.out.println("New number: " + newNumber);
+    }
+}
